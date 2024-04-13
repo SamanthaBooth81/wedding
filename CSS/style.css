@@ -21,27 +21,31 @@
 /*            Welcome Section Styling                        */ 
 
 #welcome {
-    background: rgb(0, 49, 35);
+    /* background: rgb(0, 49, 35); */
     /* background: #730400;  */
     padding: 5%;
     width: 50%;
+    padding: 50% 5% 50% 5%;
 }
 
 #welcome, h1{
     font-family: "Dawning of a New Day", cursive;
     font-weight: 400;
     font-style: normal;
-    padding: 5%;
+    
 }
 
 .welcomeText {
     color: rgb(248, 249, 250);
+    text-align: center;
+    padding: 50% 5% 50% 5%;
 }
 
 #welcome-container{
     margin: 0; 
     padding: 0;
     max-width: 100%;
+    background: rgb(0, 49, 35);
 }
 
 .welcome-image {
@@ -64,4 +68,38 @@
 
 
 
+/*            Responsive Styling                        */
+
+@media screen and (min-width: 315px){
+    #welcome {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    #welcome-container {
+        display: flex;
+        flex-direction: column;
+    }
+        
+    #firstDiv {
+        order: 1;
+    }
+        
+    #secondDiv {
+        order: 0;
+    }
+
+    .welcome-image {
+        height: 20%;
+    }
+
+    .welcomeText{
+        padding: 15%;
+    }
+}
+@media screen and (min-width: 501px){
+    
+}
 
