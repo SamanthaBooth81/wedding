@@ -56,6 +56,14 @@
     object-fit: cover;
 }
 
+.welcome-msg {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    height: 700px;
+    object-fit: cover;
+}
+
 /*            Garland Divider Styling                       */ 
 
 #garland {
@@ -76,7 +84,7 @@
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
 
     #welcome-container {
         display: flex;
@@ -91,7 +99,7 @@
         order: 0;
     }
 
-    .welcome-image {
+    .welcome-msg {
         height: 20%;
     }
 
@@ -99,7 +107,14 @@
         padding: 15%;
     }
 }
-@media screen and (min-width: 501px){
-    
+@media screen and (min-width: 960px){
+    .welcomeText{
+    padding: 45% 5% 45% 5%;
+    }
+
+    .welcome-msg {
+        width: 40%;
+
+    }
 }
 
