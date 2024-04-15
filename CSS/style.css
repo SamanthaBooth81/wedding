@@ -71,7 +71,17 @@
     width: 50%;
 }
 
+/*                     Footer Styling                       */ 
 
+#footer {
+    background: rgb(0, 49, 35);
+    color: rgb(255, 255, 255);
+
+}
+
+.footer-div, h4 {
+    height: 100px;
+}
 
 /*            Responsive Styling                        */
 
