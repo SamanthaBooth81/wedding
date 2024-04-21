@@ -75,6 +75,15 @@ iframe {
     border: 0;
 }
 
+.rsvp{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.rsvp-inputs{
+    margin: 3%;
+}
+
 /*                     Footer Styling                       */ 
 
 #footer {
@@ -130,6 +139,12 @@ iframe {
     iframe {
         width: 90%;
     }
+
+    .rsvp{
+        width: 90%;
+        margin: 3%;
+    }
+
 }
 @media screen and (min-width: 960px){
     .welcomeText{

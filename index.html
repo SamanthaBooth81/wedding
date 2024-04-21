@@ -87,23 +87,15 @@
 
     <div class="text-centre">
       <h1 id="rsvp" >RSVP</h1>
-      <form 
-        target="_blank"
-        action="https://formsubmit.co/45a2470530ff1ae94633116200f36032" 
-        method="POST">
+      <form target="_blank" action="https://formsubmit.co/45a2470530ff1ae94633116200f36032" method="POST" class="rsvp">
         <div class="mb-3"></div>
-          <input type="text" name="name" required placeholder="Name" class="form-control" id="exampleFormControlInput1" >
+          <input type="text" name="name" required placeholder="Name" class="form-control rsvp-inputs" id="exampleFormControlInput1" >
+          <input type="text" name="rsvp" required placeholder="Attending? Yes/No" class="form-control rsvp-inputs" id="exampleFormControlInput1">
+          <textarea name="test field" id="" cols="30" rows="10" placeholder="Dietary Requirements" class="form-control rsvp-inputs" id="exampleFormControlInput1"></textarea>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://samanthabooth81.github.io/wedding/thanks.html">
+          <button type="submit" class="btn btn-outline-success rsvp-inputs">Send</button>
         </div>
-        <div class="mb-3"></div>
-          <input type="text" name="rsvp" required placeholder="Attending? Yes/No" class="form-control" id="exampleFormControlInput1">
-        </div>
-        <div class="mb-3"></div>
-          <textarea name="test field" id="" cols="30" rows="10" placeholder="Dietary Requirements" class="form-control" id="exampleFormControlInput1"></textarea>
-        </div>
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://samanthabooth81.github.io/wedding/thanks.html">
-        <button type="submit" class="btn btn-outline-success">Success</button>
-       
       </form>
 
     </div>
