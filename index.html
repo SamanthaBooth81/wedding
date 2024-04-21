@@ -39,10 +39,10 @@
             </div>
         </nav>
         <div id="welcome-container" class="container">
-          <div id="welcome secondDiv" class="fixed welcome-msg">
+          <div id="welcome secondDiv" class="fixed welcome-msg cursive-font">
             <div id="flex" class="welcomeText">
-              <h1>Welcome to the Wedding of</h1>
-              <h1>Samantha & Patrick</h1>
+              <h1 style="padding-bottom:0;">We're Getting Married!</h1>
+              <h1 style="font-size: 70px;">Samantha & Patrick</h1>
               <h2 class="">7th December 2024</h2>
             </div>
           </div>
@@ -53,20 +53,20 @@
 
     </div>
     <div class="text-centre">
-      <h1 id="ceremony">Ceremony Details</h1>
-
-      <h4>Location</h4>
-      <p>The Lakeside Hotel & Leisure Centre</p>
-      <p>Cullenagh, Killaloe, Co. Clare, V94 E2D6, Ireland</p>
+      <h1 id="ceremony" class="cursive-font section-title">Ceremony Details</h1>
 
       <h4>Ceremony Time</h4>
       <p>13:30</p>
-      
+
+      <h4>Location</h4>
+      <a href="https://www.lakesidehotel.ie/?lang=en" target="_blank">The Lakeside Hotel & Leisure Centre</a>
+      <p>Cullenagh, Killaloe, Co. Clare, V94 E2D6, Ireland</p>
+
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4823.255321571387!2d-8.448811605468228!3d52.811050214639984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485c9e8cd6bb1e91%3A0x247a9335b2920eff!2sThe%20Lakeside%20Hotel%20and%20Leisure%20Centre!5e0!3m2!1sen!2suk!4v1713103510535!5m2!1sen!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <div class="text-centre">
-      <h1 id="accommodation">Additional Accommodation</h1>
+      <h1 id="accommodation" class="cursive-font section-title">Additional Accommodation</h1>
       <dl>
         <dt>Killaloe</dt>
         <dd>Killaloe Hotel & Spa +353 61 622123</dd>
@@ -86,15 +86,16 @@
     </div>
 
     <div class="text-centre">
-      <h1 id="rsvp" >RSVP</h1>
+      <h1 id="rsvp" class="cursive-font section-title">RSVP</h1>
       <form target="_blank" action="https://formsubmit.co/45a2470530ff1ae94633116200f36032" method="POST" class="rsvp">
         <div class="mb-3"></div>
-          <input type="text" name="name" required placeholder="Name" class="form-control rsvp-inputs" id="exampleFormControlInput1" >
-          <input type="text" name="rsvp" required placeholder="Attending? Yes/No" class="form-control rsvp-inputs" id="exampleFormControlInput1">
-          <textarea name="test field" id="" cols="30" rows="10" placeholder="Dietary Requirements" class="form-control rsvp-inputs" id="exampleFormControlInput1"></textarea>
+          <input type="text" name="name" required placeholder="Name - Include everyone you're confirming for" class="form-control rsvp-inputs" id="exampleFormControlInput1" >
+          <input type="text" name="rsvp" required placeholder="Will you be celebrating with us?" class="form-control rsvp-inputs" id="exampleFormControlInput1" >
+
+          <textarea name="test required field" id="" cols="30" rows="10" placeholder="Dietary Requirements" class="form-control rsvp-inputs" id="exampleFormControlInput1"></textarea>
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_next" value="https://samanthabooth81.github.io/wedding/thanks.html">
-          <button type="submit" class="btn btn-outline-success rsvp-inputs">Send</button>
+          <button type="submit" class="btn-styling rsvp-inputs">Send</button>
         </div>
       </form>
 
@@ -102,7 +103,7 @@
 
   <footer id="footer">
     <div class="footer-div">
-      <h5 class="text-centre">We hope you can celebrate with us!</h5>
+      <h2 class="text-centre cursive-font">We hope you can celebrate with us!</h2>
       <i class="fa-solid fa-heart" ></i>
     </div>
   </footer>
