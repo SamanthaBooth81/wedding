@@ -1,6 +1,5 @@
 /*            Re-usable Styling                        */
-
-.textAlignCenter {
+.text-centre {
     text-align: center;
 }
 
@@ -18,8 +17,11 @@
     flex-grow: 1;
 }
 
-.text-centre {
-    text-align: center;
+
+
+/*            Element Styling                        */ 
+h1 {
+    padding: 10px;
 }
 
 /*            Welcome Section Styling                        */ 
@@ -65,14 +67,12 @@
     object-fit: cover;
 }
 
-/*            Garland Divider Styling                       */ 
+/*                     Map Styling                       */ 
 
-#garland {
-    padding: 3%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+iframe {
+    width: 60%;
+    height: 450px;
+    border: 0;
 }
 
 /*                     Footer Styling                       */ 
@@ -83,8 +83,9 @@
 
 }
 
-.footer-div, h4 {
+.footer-div {
     height: 100px;
+    padding: 25px;
 }
 
 /*            Responsive Styling                        */
@@ -122,6 +123,10 @@
         height: 500px;
 
     }
+
+    iframe {
+        width: 90%;
+    }
 }
 @media screen and (min-width: 960px){
     .welcomeText{
@@ -132,9 +137,5 @@
         width: 40%;
     }
 
-    /* .welcome-image {
-        height: 300px;
-
-    } */
 }
 
