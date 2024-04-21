@@ -18,6 +18,10 @@
     flex-grow: 1;
 }
 
+.heading-centre {
+    text-align: center;
+}
+
 /*            Welcome Section Styling                        */ 
 
 #welcome {
