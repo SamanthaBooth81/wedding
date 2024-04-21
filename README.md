@@ -13,3 +13,6 @@
 - Further styling/Final Touches
 
 Link to be added to invites. 
+
+# link to deployed site
+https://samanthabooth81.github.io/wedding/ 
