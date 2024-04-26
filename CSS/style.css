@@ -58,6 +58,11 @@
     object-fit: cover;
 }
 
+.welcome-msg-styling{
+    padding-bottom:0;
+    font-size: 70px;
+}
+
 .welcome-msg {
     width: 100%;
     margin: 0%;
