@@ -96,6 +96,7 @@ iframe {
 
 /*                     RSVP Form Styling                       */ 
 
+
 .rsvp{
     width: 60%;
     margin: 0 auto;
@@ -129,6 +130,40 @@ iframe {
 
 .footer, i {
     padding: 0 50%;
+}
+
+/*                     Thankyou Styling                       */ 
+.thankyou-msg{
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.thankyou-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25%;
+    width: 50%;
+}
+
+.thankyou {
+    font-size: 50px;
+}
+
+.return-home{
+    color: black;
+}
+
+.return-home:hover{
+    color: rgb(1, 107, 77);
+}
+
+.thankyou-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
 /*            Responsive Styling                        */
@@ -174,6 +209,10 @@ iframe {
     .rsvp{
         width: 90%;
         margin: 3%;
+    }
+
+    .thankyou{
+        font-size: 30px;
     }
 
 }
