@@ -17,20 +17,20 @@
     - Numbers 
 
 ## To do:
-- Run through content listed above, make sure nothing is missing
-- Re-do the form
+- Run through content listed above, make sure nothing is missing - DONE
+- Re-do the form - DONE
     - First Name
     - Surname
     - Guest names
     - Yes/No
     - Diertary Requirements (If Attending)
     - Message
-- Fix fonts
-- Finish thank you message page
+- Fix fonts - DONE
+- Finish thank you message page - DONE
 - Responsive stylling
-- Deploy
+- Deploy - DONE
 - Test on different devices
-- Any additional finishing touches
+- Any additional finishing touches 
 
 Link to be added to invites. 
 
