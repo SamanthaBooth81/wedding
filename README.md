@@ -26,6 +26,7 @@
     - Diertary Requirements (If Attending)
     - Message
 - Fix fonts
+- Finish thank you message page
 - Responsive stylling
 - Deploy
 - Test on different devices
