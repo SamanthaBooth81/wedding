@@ -111,6 +111,10 @@ iframe {
     padding: 8px 25px;
 }
 
+.form-text-centre {
+    text-align: left !important;
+}
+
 /*                     Footer Styling                       */ 
 
 #footer {

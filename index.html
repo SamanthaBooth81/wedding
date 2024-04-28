@@ -88,18 +88,47 @@
       </dl>
     </div>
 
+    
+
     <div class="text-centre">
       <h1 id="rsvp" class="cursive-font section-title">RSVP</h1>
-      <form target="_blank" action="https://formsubmit.co/45a2470530ff1ae94633116200f36032" method="POST" class="rsvp">
-        <div class="mb-3"></div>
-          <input type="text" name="name" required placeholder="Name - Include everyone you're confirming for" class="form-control rsvp-inputs" id="exampleFormControlInput1" >
-          <input type="text" name="rsvp" required placeholder="Will you be celebrating with us?" class="form-control rsvp-inputs" id="exampleFormControlInput1" >
 
-          <textarea name="test required field" id="" cols="30" rows="5" placeholder="Dietary Requirements" class="form-control rsvp-inputs" id="exampleFormControlInput1"></textarea>
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://samanthabooth81.github.io/wedding/thanks.html">
-          <button type="submit" class="btn-styling rsvp-inputs">Send</button>
+      <form target="_blank" action="https://formsubmit.co/45a2470530ff1ae94633116200f36032" method="POST" class="rsvp">
+        <div class="row g-3">
+            <div class="col">
+              <input type="text" name="First Name" required placeholder="First Name" class="form-control rsvp-inputs subheadings" id="exampleFormControlInput1">
+            </div>
+            <div class="col">
+              <input type="text" name="Last Name" required placeholder="Last Name" class="form-control rsvp-inputs subheadings" id="exampleFormControlInput1" >
+            </div>
         </div>
+        <div class="row mb-3">
+          <textarea name="Guests" id="" cols="30" rows="5" placeholder="Guest Names" class="form-control rsvp-inputs subheadings" id="exampleFormControlInput1"></textarea>
+        </div>
+
+        <h5 class="form-text-centre subheadings">Will you be attending?</h5>
+
+        <fieldset class="row mb-3 form-text-centre">
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Joyfully Accepts" checked>
+              <label class="form-check-label subheadings" for="gridRadios1">
+                Joyfully Accepts
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Regretfully Declines">
+              <label class="form-check-label subheadings" for="gridRadios2">
+                Regretfully Declines
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <textarea name="Dietary Requirements" id="" cols="30" rows="5" placeholder="Dietary Requirements" class="form-control rsvp-inputs subheadings" id="exampleFormControlInput1"></textarea>
+        <textarea name="Message" id="" cols="30" rows="5" placeholder="Message" class="form-control rsvp-inputs subheadings" id="exampleFormControlInput1"></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://samanthabooth81.github.io/wedding/thanks.html">
+        <button type="submit" class="btn btn-primary subheadings">RSVP</button>
       </form>
 
     </div>
