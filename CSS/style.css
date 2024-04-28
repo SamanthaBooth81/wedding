@@ -9,6 +9,13 @@
     font-style: normal;
 }
 
+
+.subheadings{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /*            Center 2 Divs                       */
 
 .container{
