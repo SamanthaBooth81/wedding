@@ -1,0 +1,192 @@
+/* ALL STYLING */
+.div-flex{
+    display: flex;
+}
+
+/* TEXT STYLING */
+
+ /* Heading Styling */
+ .italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.header-padding {
+    padding-bottom: 6%;
+    padding-top: 25%;
+}
+
+.subheader-padding {
+    padding-bottom: 5%;
+}
+
+/* Body Text Font */
+.josefin-slab-textbody-font {
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-textbody-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-color-cream{
+    color: #F6F2E7;
+}
+
+.text-center{
+    text-align: center;
+}
+
+nav {
+    background: #FDFFFE;
+}
+
+/* WELCOME MESSAGE CSS */
+
+/* Container holding the image and the text */
+.home-container {
+    position: relative;
+    text-align: center;
+}
+
+  /* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.welcome-msg{
+    padding-bottom: 10%;
+    padding-right: 15%;
+}
+
+/* CEREMONY DETAILS CSS */
+
+/** position Div & image side by side **/
+.left-div{
+    width:50%;
+    float:left;
+
+}
+
+.right-div{
+    float:right;
+    width:50%;
+}
+
+.right-div img{
+    max-width:100%;
+    padding: 15%;
+}
+
+/* Ceremony Info Styling */
+.ceremony-div-background{
+    background: rgb(0, 49, 35);
+}
+
+.left-div-styling{
+    padding: 8%;
+}
+
+/* Ceremony Img Styling */
+.ceremony-div{
+    background: black;
+    display: flex;
+}
+
+/* Ceremony Text Styling */
+
+.hotel-link:hover {
+    color: #4B4B41;
+}
+
+.map{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 5%;
+}
+
+/* Accommodation Div Styling */
+.accommodation-div{
+    background-color: #F6F2E7;
+    padding: 5%;
+}
+
+.accommodation-headers{
+    padding-bottom: 2%;
+}
+
+/* rsvp Div */
+.rsvp-background {
+    background: #540017;
+}
+
+.padding {
+    padding-bottom: 5%;
+}
+
+form input, form textarea, form h5, form label {
+    margin-bottom: 2%;
+}
+
+.button-color {
+    background-color: #F6F2E7 !important;
+}
+
+.button-color:hover {
+    background-color: #540017 !important;
+    border-color: #F6F2E7 !important;
+}
+
+.form-check-input:checked {
+    background-color: #231F20 !important;
+    border-color: #F6F2E7 !important;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* RESPONSIVE STYLING */
+@media screen and (max-width: 1400px){
+    .ceremony-div{
+        display: block;
+    }
+    .left-div{
+        width: 100%;
+ 
+    }
+    .right-div{
+        width: 100%;
+    }
+
+    .right-div img {
+        max-width: 60%;
+        padding: 5%;
+        margin-left: 20%;
+    }
+
+    .left-div-styling{
+        padding-bottom: 0;
+    }
+
+    .accommodation-div{
+        height: 2300px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+
+}
+
