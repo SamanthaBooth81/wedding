@@ -17,18 +17,7 @@
     - Numbers 
 
 ## To do:
-- Run through content listed above, make sure nothing is missing - DONE
-- Re-do the form - DONE
-    - First Name
-    - Surname
-    - Guest names
-    - Yes/No
-    - Diertary Requirements (If Attending)
-    - Message
-- Fix fonts - DONE
-- Finish thank you message page - DONE
-- Responsive stylling
-- Deploy - DONE
+- Re-style based on Canva design
 - Test on different devices
 - Any additional finishing touches 
 
