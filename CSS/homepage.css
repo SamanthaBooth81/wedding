@@ -130,6 +130,18 @@ nav {
     flex-direction: column;
 }
 
+.accommodation-hotel-link{
+    color: black;
+}
+
+.accommodation-hotel-link:hover{
+    color: #540017;
+}
+
+.additional-accommodation-header{
+    padding-top: 2%;
+}
+
 /* ------------------------------------  RSVP */
 .rsvp-background {
     background: #540017;
