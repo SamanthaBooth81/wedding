@@ -1,229 +1,339 @@
-/*            Re-usable Styling                        */
-.text-centre {
-    text-align: center;
+/* ------------------------------------ ALL STYLING */
+.div-flex{
+    display: flex;
 }
 
-.cursive-font{
-    font-family: "Dawning of a New Day", cursive;
+/* ------------------------------------ TEXT STYLING */
+
+ /* Heading Styling */
+ .italiana-regular {
+    font-family: "Italiana", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-
-.subheadings{
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
-/*            Center 2 Divs                       */
-
-.container{
-    display: flex;
-    margin: 0;
-}
-
-.fixed{
-    width: 200px;
-}
-.flex-item{
-    flex-grow: 1;
-}
-
-/*            Sectional Styling                        */ 
-
-.section-title{
-    padding-top: 30px;
-}
-
-/*            Welcome Section Styling                        */ 
-
-#welcome {
-    padding: 5%;
-    width: 50%;
-    padding: 50% 5% 50% 5%;
-}
-
-.welcomeText {
-    color: rgb(248, 249, 250);
-    text-align: center;
-    padding: 50% 5% 50% 5%;
-}
-
-#welcome-container{
-    margin: 0; 
-    padding: 0;
-    max-width: 100%;
-    background: rgb(0, 49, 35);
-}
-
-.welcome-image {
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    height: 900px;
-    object-fit: cover;
-}
-
-.welcome-msg-styling{
-    padding-bottom:0;
-    font-size: 70px;
-}
-
-.welcome-msg {
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    height: 700px;
-    object-fit: cover;
-}
-
-/*                     Map Styling                       */ 
-
-iframe {
-    width: 60%;
-    height: 450px;
-    border: 0;
-}
-
-/*                     Accommodation Section Styling                       */ 
-
-.accommodation-div{
-    background: rgba(40, 133, 107, 0.491);
-    margin: 50px 0 50px 0;
-    padding: 50px 0 50px 0;
-}
-
-/*                     RSVP Form Styling                       */ 
-
-
-.rsvp{
-    width: 60%;
-    margin: 0 auto;
-}
-
-.rsvp-inputs{
-    margin: 3%;
-}
-
-.btn-styling {
-    border-color: rgb(0, 49, 35);
-    border-radius: 8px;
-    padding: 8px 25px;
-}
-
-.form-text-centre {
-    text-align: left !important;
-}
-
-/*                     Footer Styling                       */ 
-
-#footer {
-    background: rgb(0, 49, 35);
-    color: rgb(255, 255, 255);
-}
-
-.footer-div {
-    height: 125px;
-    padding: 25px;
-}
-
-.footer, i {
-    padding: 0 50%;
-}
-
-/*                     Thankyou Styling                       */ 
-.thankyou-msg{
-    padding-top: 15%;
-    padding-bottom: 5%;
-}
-.thankyou-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25%;
-    width: 50%;
-}
-
-.thankyou {
     font-size: 50px;
 }
 
-.return-home{
-    color: black;
+.rsvp-header-padding {
+    padding-bottom: 6%;
+    padding-top: 25%;
 }
 
-.return-home:hover{
-    color: rgb(1, 107, 77);
+.rsvp-subheader-padding {
+    padding-bottom: 5%;
 }
 
-.thankyou-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
+/* Body Text Font */
+.josefin-slab-textbody-font {
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-textbody-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-color-cream{
+    color: #F6F2E7;
+}
+
+.text-center{
     text-align: center;
 }
 
-/*            Responsive Styling                        */
+/* ------------------------------------ NAV CSS */
 
-@media screen and (min-width: 315px){
-    #welcome {
-        padding: 0;
-    }
+nav {
+    background: #FDFFFE;
 }
 
-@media screen and (max-width: 800px){
+/* ------------------------------------ WELCOME MESSAGE CSS */
 
-    #welcome-container {
-        display: flex;
+/* Container holding the image and the text */
+.home-container {
+    position: relative;
+    text-align: center;
+}
+
+  /* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.welcome-msg{
+    padding-bottom: 10%;
+    padding-right: 15%;
+}
+
+/* ------------------------------------ CEREMONY DETAILS CSS */
+
+/** position Div & image side by side **/
+.left-div{
+    width:50%;
+    float:left;
+
+}
+
+.right-div{
+    float:right;
+    width:50%;
+}
+
+.right-div img{
+    max-width:100%;
+    padding: 15%;
+}
+
+/* Ceremony Info Styling */
+.ceremony-div-background{
+    background: rgb(0, 49, 35);
+}
+
+.left-div-styling{
+    padding: 8%;
+}
+
+/* Ceremony Img Styling */
+.ceremony-div{
+    background: black;
+    display: flex;
+}
+
+/* Ceremony Text Styling */
+
+.hotel-link:hover {
+    color: #4B4B41;
+}
+
+.ceremony-header {
+    padding-bottom: 5%;
+}
+
+.map{
+    width: 100%;
+    height: 300px;
+    padding: 5%;
+}
+
+
+/* ------------------------------------ ACCOMMODATION DETAILS */
+.accommodation-div{
+    background-color: #F6F2E7;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.accommodation-hotel-link{
+    color: black;
+}
+
+.accommodation-hotel-link:hover{
+    color: #540017;
+}
+
+.additional-accommodation-header{
+    padding-top: 2%;
+}
+
+/* ------------------------------------  RSVP */
+.rsvp-background {
+    background: #540017;
+}
+
+.padding {
+    padding-bottom: 5%;
+}
+
+form input, form textarea, form h5, form label {
+    margin-bottom: 2%;
+}
+
+.button-color {
+    background-color: #F6F2E7 !important;
+}
+
+.button-color:hover {
+    background-color: #540017 !important;
+    border-color: #F6F2E7 !important;
+}
+
+.form-check-input:checked {
+    background-color: #231F20 !important;
+    border-color: #F6F2E7 !important;
+}
+
+.rsvp-left-div{
+    width:50%;
+    float:left;
+}
+
+.rsvp-right-div{
+    float:right;
+    width:50%;
+}
+
+.left-rsvp-styling {
+    padding: 8%;
+}
+
+/* ------------------------------------ FINAL MSG */
+
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* RESPONSIVE STYLING */
+
+@media screen and (max-width: 1450px){
+    .ceremony-div{
+        display: block;
+    }
+    .left-div{
+        width: 100%;
+ 
+    }
+    .right-div{
+        width: 100%;
+    }
+
+    .right-div img {
+        max-width: 60%;
+        padding: 5%;
+        margin-left: 20%;
+    }
+
+    .left-div-styling{
+        padding-bottom: 0;
+    }
+
+    .map {
+        height: 500px;
+    }
+    .accommodation-headers{
+        padding: 2%;
+    }
+
+    .div-flex {
         flex-direction: column;
     }
-        
-    #firstDiv {
-        order: 1;
+
+    .rsvp-left-div {
+        width: 80%;
+        margin: 0 auto;
     }
-        
-    #secondDiv {
-        order: 0;
+
+    .rsvp-right-div {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .rsvp-header-padding {
+        padding-top: 5%;
+    }
+
+    .left-rsvp-styling {
+        padding: 1%;
+    }
+
+    .rsvp-div {
+        padding: 5%;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    .map {
+        height: 350px;
     }
 
     .welcome-msg {
-        height: 20%;
+        padding-bottom: 1%;
+        padding-right: 1%;
     }
 
-    .welcomeText{
-        padding: 15%;
+    .italiana-regular {
+        font-size: 40px;
     }
 
-    .welcome-image {
-        height: 500px;
-
+    .ceremony-header{
+        padding-bottom: 3%;
+    }
+   
+    .ceremony-subheading, .accommodation-subheading, .rsvp-subheading {
+        font-size: 20px;
     }
 
-    iframe {
-        width: 90%;
+    .left-div-styling{
+        padding: 4%;
     }
 
-    .rsvp{
-        width: 90%;
-        margin: 3%;
+    p {
+        font-size: 15px;
     }
 
-    .thankyou{
+    .right-div img {
+        max-width: 100%;
+        padding: 0; 
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .end-msg {
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 481px){
+    .end-msg {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width: 406px){
+    .end-msg {
+        font-size: 20px !important;
+    }
+
+    .italiana-regular {
         font-size: 30px;
     }
-
-}
-@media screen and (min-width: 960px){
-    .welcomeText{
-    padding: 45% 5% 45% 5%;
+   
+    .ceremony-subheading, .accommodation-subheading, .rsvp-subheading, .attendance-question {
+        font-size: 18px;
     }
 
-    .welcome-msg {
-        width: 40%;
+    p, a, label {
+        font-size: 12px;
     }
 
+    .form-control{
+        font-size: 14px !important;
+    }
 }
 
+@media screen and (max-width: 330px){
+    .end-msg {
+        font-size: 18px !important;
+    }
+
+    .italiana-regular {
+        font-size: 28px;
+    }
+   
+    .ceremony-subheading, .accommodation-subheading, .rsvp-subheading, .attendance-question {
+        font-size: 16px;
+    }
+    p, a, label {
+        font-size: 12px;
+    }
+}
