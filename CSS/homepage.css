@@ -13,12 +13,12 @@
     font-size: 50px;
 }
 
-.header-padding {
+.rsvp-header-padding {
     padding-bottom: 6%;
     padding-top: 25%;
 }
 
-.subheader-padding {
+.rsvp-subheader-padding {
     padding-bottom: 5%;
 }
 
@@ -122,13 +122,15 @@ nav {
 .accommodation-div{
     background-color: #F6F2E7;
     padding: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 .accommodation-headers{
-    padding-bottom: 2%;
+    padding: 5%;
 }
 
-/* rsvp Div */
+/* ------------------------------------  RSVP */
 .rsvp-background {
     background: #540017;
 }
@@ -165,6 +167,10 @@ form input, form textarea, form h5, form label {
     width:50%;
 }
 
+.left-rsvp-styling {
+    padding: 8%;
+}
+
 /* ------------------------------------ FINAL MSG */
 
 .centered {
@@ -197,16 +203,36 @@ form input, form textarea, form h5, form label {
         padding-bottom: 0;
     }
 
+    .accommodation-headers{
+        padding: 2%;
+    }
+
     .div-flex {
-        display: block;
+        flex-direction: column;
     }
 
     .rsvp-left-div {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
-    
+
     .rsvp-right-div {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .rsvp-header-padding {
+        padding-top: 5%;
+    }
+
+    .left-rsvp-styling {
+        padding: 1%;
+    }
+
+  
+
+    .rsvp-div {
+        padding: 5%;
     }
 
 }
