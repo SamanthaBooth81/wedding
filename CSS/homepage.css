@@ -130,10 +130,6 @@ nav {
     flex-direction: column;
 }
 
-.accommodation-headers{
-    padding: 5%;
-}
-
 /* ------------------------------------  RSVP */
 .rsvp-background {
     background: #540017;
