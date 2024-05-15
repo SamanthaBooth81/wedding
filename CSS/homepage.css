@@ -296,11 +296,16 @@ form input, form textarea, form h5, form label {
         font-size: 30px;
     }
    
-    .ceremony-subheading, .accommodation-subheading, .rsvp-subheading {
+    .ceremony-subheading, .accommodation-subheading, .rsvp-subheading, .attendance-question {
         font-size: 18px;
     }
+
     p, a, label {
         font-size: 12px;
+    }
+
+    .form-control{
+        font-size: 14px !important;
     }
 }
 
@@ -313,10 +318,10 @@ form input, form textarea, form h5, form label {
         font-size: 28px;
     }
    
-    .ceremony-subheading, .accommodation-subheading, .rsvp-subheading {
+    .ceremony-subheading, .accommodation-subheading, .rsvp-subheading, .attendance-question {
         font-size: 16px;
     }
     p, a, label {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
