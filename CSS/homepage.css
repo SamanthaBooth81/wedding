@@ -263,4 +263,8 @@ form input, form textarea, form h5, form label {
     .ceremony-subheading {
         font-size: 2px;
     }
+
+    .left-div-styling{
+        padding: 4%;
+    }
 }
