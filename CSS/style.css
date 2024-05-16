@@ -191,7 +191,24 @@ form input, form textarea, form h5, form label {
     transform: translate(-50%, -50%);
   }
 
-/* RESPONSIVE STYLING */
+/* ------------------------------------ THANK YOU PAGE */
+.thankyou-body{
+    background-color: #E7DFD8;
+}
+
+.thankyou-msg{
+    padding-top: 500px; 
+    width: 80%; 
+    text-align: center;
+}
+
+.thankyou-heart{
+    padding: 2%;
+    color: #540017;
+    font-size: large;
+}
+
+/*  ------------------------------------ RESPONSIVE STYLING */
 
 @media screen and (max-width: 1450px){
     .ceremony-div{
