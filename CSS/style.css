@@ -14,8 +14,8 @@
 }
 
 .rsvp-header-padding {
-    padding-bottom: 6%;
-    padding-top: 25%;
+    padding-bottom: 4%;
+   
 }
 
 .rsvp-subheader-padding {
@@ -23,12 +23,12 @@
 }
 
 /* Body Text Font */
-.josefin-slab-textbody-font {
+/* .josefin-slab-textbody-font {
   font-family: "Josefin Slab", serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-}
+} */
 
 .montserrat-textbody-font {
   font-family: "Montserrat", sans-serif;
@@ -43,6 +43,10 @@
 
 .text-center{
     text-align: center;
+}
+
+.ceremony-subheading, .accommodation-subheading, .rsvp-subheading {
+    font-size: 30px;
 }
 
 /* ------------------------------------ NAV CSS */
@@ -234,7 +238,9 @@ form input, form textarea, form h5, form label {
 
     .map {
         height: 500px;
+        padding: 5% 5% 0% 5%;
     }
+
     .accommodation-headers{
         padding: 2%;
     }
@@ -255,6 +261,10 @@ form input, form textarea, form h5, form label {
 
     .rsvp-header-padding {
         padding-top: 5%;
+    }
+
+    .ceremony-header {
+        padding-bottom: 3%;
     }
 
     .left-rsvp-styling {
