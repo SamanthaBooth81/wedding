@@ -173,18 +173,19 @@ form input, form textarea, form h5, form label {
     border-color: #F6F2E7 !important;
 }
 
-.rsvp-left-div{
+/* .rsvp-left-div{
     width:50%;
     float:left;
-}
+} */
 
-.rsvp-right-div{
+/* .rsvp-right-div{
     float:right;
     width:50%;
-}
+} */
 
 .left-rsvp-styling {
-    padding: 8%;
+    padding: 7%;
+    width: 100%;
 }
 
 /* ------------------------------------ FINAL MSG */
